@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Scan') {
             steps{
-                echo "Scan"
+                echo "Scan Passed"
             }
         }
         stage('Test') {
